@@ -1,23 +1,21 @@
 # Öğrenci Yönetim Uygulaması (C# Console – CRUD)
-Kısa açıklama: 
-Hedef
-    * Konsol tabanlı uygulama olacak.
-    * Öğrenci ekleme, listeleme, güncelleme, silme yapılacak.
-    * Veriler dosya (.json/.txt) veya SQLite’ta saklanacak (önce dosya → sonra opsiyonel SQLite).
-    * Kod yapısı temiz OOP mantığıyla olacak.
 
-## İçindekiler
-- backend/
-- frontend/
-- docs/
-- tests/
+Bu proje, **Full Stack Eğitim Planı** kapsamında **1. Ay Projesi** olarak geliştirilmiştir.  
+Amacı: Konsol tabanlı C# uygulamasında **CRUD (Create, Read, Update, Delete)** işlemlerini öğrenmek.
 
-## Nasıl çalıştırılır
-1. `cd backend && dotnet run`
-2. `cd frontend && npm install && npm start`
+## Özellikler
+- Öğrenci ekleme
+- Öğrenci listeleme
+- Öğrenci güncelleme
+- Öğrenci silme
+- Verilerin dosyada saklanması (JSON veya TXT)
 
-## Katkı
-Lütfen CONTRIBUTING.md’ye bakınız.
+## Teknolojiler
+- C# .NET 8 Console
+- JSON dosya kaydı (System.Text.Json)
 
-## Lisans
-MIT
+## Kurulum
+```bash
+git clone https://github.com/KULLANICI_ADI/student-management-console.git
+cd student-management-console/src
+dotnet run
